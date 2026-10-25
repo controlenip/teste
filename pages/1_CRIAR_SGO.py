@@ -11,8 +11,6 @@ import math
 # ==========================================
 # 1. CONFIGURAÇÕES DA PÁGINA E CSS
 # ==========================================
-st.set_page_config(page_title="Gerador SGO & Nomes de Obra", page_icon="🏗️", layout="wide", initial_sidebar_state="expanded")
-
 st.markdown("""
 <style>
     .block-container { padding-top: 1rem !important; padding-bottom: 2rem !important; }

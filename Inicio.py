@@ -3,13 +3,6 @@ import os
 import base64
 from pathlib import Path
 
-st.set_page_config(
-    page_title="Sistema de Obras NIP",
-    page_icon="🏗️",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
 import sys as _nip_sys
 from pathlib import Path as _nip_Path
 _nip_sys.path.insert(0, str(_nip_Path(__file__).resolve().parent))

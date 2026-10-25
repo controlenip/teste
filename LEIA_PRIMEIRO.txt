@@ -1,9 +1,9 @@
-NIP - SISTEMA SGO COM TODAS AS ABAS
+NIP - MENU SUPERIOR HORIZONTAL
 
-Inclui Inicio.py, pages/1_CRIAR_SGO.py, pages/2_RELATORIO_DE_EXPURGO.py, pages/3_MAPA.py, nip_tema.py, requirements.txt e os arquivos de suporte originais.
-
-O Gerador SGO usa a versao corrigida do PI individual e o tema NIP. As outras abas receberam o tema visual compartilhado sem modificar suas regras internas.
-
-Para executar: pip install -r requirements.txt ; streamlit run Inicio.py
-
-Observacao: o visual usa o estilo do HTML de referencia, mas nao reproduz literalmente a arquitetura HTML/JavaScript original. Testar com as bases reais antes de publicar.
+1. Instale: pip install -r requirements.txt
+2. Inicie: streamlit run app.py
+3. As abas ficam no MENU SUPERIOR, nao na barra lateral.
+4. Nao execute Inicio.py diretamente: app.py e o novo ponto de entrada.
+5. Paginas presentes: Visao geral, Criar SGO, Relatorio de expurgo, Mapa.
+6. O HTML de referencia possui outras abas que nao fazem parte deste sistema e nao foram inventadas.
+7. Testar em ambiente real com as bases e dependencias do projeto.
