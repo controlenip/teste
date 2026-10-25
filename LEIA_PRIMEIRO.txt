@@ -1,9 +1,6 @@
-NIP - MENU SUPERIOR HORIZONTAL
-
-1. Instale: pip install -r requirements.txt
-2. Inicie: streamlit run app.py
-3. As abas ficam no MENU SUPERIOR, nao na barra lateral.
-4. Nao execute Inicio.py diretamente: app.py e o novo ponto de entrada.
-5. Paginas presentes: Visao geral, Criar SGO, Relatorio de expurgo, Mapa.
-6. O HTML de referencia possui outras abas que nao fazem parte deste sistema e nao foram inventadas.
-7. Testar em ambiente real com as bases e dependencias do projeto.
+NIP - interface horizontal fiel ao cabecalho e abas do HTML de referencia.
+Execute: pip install -r requirements.txt
+Depois: streamlit run app.py
+As abas existentes sao Visao geral, Criar SGO, Relatorio de expurgo e Mapa.
+Os controles e processamento das paginas originais foram preservados.
+A fidelidade visual integral depende de teste em navegador e adaptacao do corpo das paginas.
