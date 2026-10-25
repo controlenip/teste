@@ -1,0 +1,9 @@
+NIP - SISTEMA SGO COM TODAS AS ABAS
+
+Inclui Inicio.py, pages/1_CRIAR_SGO.py, pages/2_RELATORIO_DE_EXPURGO.py, pages/3_MAPA.py, nip_tema.py, requirements.txt e os arquivos de suporte originais.
+
+O Gerador SGO usa a versao corrigida do PI individual e o tema NIP. As outras abas receberam o tema visual compartilhado sem modificar suas regras internas.
+
+Para executar: pip install -r requirements.txt ; streamlit run Inicio.py
+
+Observacao: o visual usa o estilo do HTML de referencia, mas nao reproduz literalmente a arquitetura HTML/JavaScript original. Testar com as bases reais antes de publicar.
